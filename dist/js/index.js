@@ -1,0 +1,1 @@
+document.querySelector("html").style.fontSize=window.screen.width/20+"px";

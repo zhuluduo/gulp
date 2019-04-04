@@ -1,0 +1,29 @@
+div p {
+  font-weight: bold;
+  font-size: 12px;
+  width: 100px;
+  height: 200px; }
+
+h1 {
+  color: #525253; }
+
+.ft1 {
+  font-size: 0.375rem; }
+
+.ft2 {
+  font-size: 0.40625rem; }
+
+.ft3 {
+  font-size: 0.4375rem; }
+
+.ft4 {
+  font-size: 0.46875rem; }
+
+.ft5 {
+  font-size: 0.5rem; }
+
+.ft6 {
+  font-size: 0.53125rem; }
+
+.ft7 {
+  font-size: 0.5625rem; }

@@ -1,0 +1,26 @@
+	淘宝镜像（ http://npm.taobao.org ）
+
+1.全局安装 （安装  cnpm   npm install cnpm -g --registry=https://registry.npm.taobao.org）
+	cnpm install gulp -g
+
+2. 局部安装gulp  (-D其实就是我们常见常用的--save-dev的缩写)
+	cnpm install -D gulp
+	
+3.安装插件 sass
+	cnpm install -D gulp-sass
+	
+4.创建我们的Gulp脚本文件gulpfile.js：
+	// 加载gulp
+	const gulp = require('gulp');
+	// 读取用于编译Sass的插件
+	const sass = require('gulp-sass');
+	
+	// 定义gulp任务
+	gulp.task('default', function () {
+	  gulp.src('css/style.scss')
+	    .pipe(sass())
+	    .pipe(gulp.dest('css'));
+	});
+	
+5.运行
+	npx gulp	

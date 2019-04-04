@@ -1,0 +1,42 @@
+// 嵌套类测试
+div {
+  p {
+    font-weight: bold;
+    font-size: 12px;
+    width: 100px;
+    height: 200px;
+  }
+}
+
+// 变量测试
+$fontColor: #525253;
+
+h1 {
+  color: $fontColor;
+}
+
+@function p2x($size){
+    @return ($size/32)*1rem;
+}
+.ft1{
+    font-size: p2x(12);
+}
+.ft2{
+    font-size: p2x(13);
+}
+.ft3{
+    font-size: p2x(14);
+}
+.ft4{
+    font-size: p2x(15);
+}
+.ft5{
+    font-size: p2x(16);
+}
+.ft6{
+    font-size: p2x(17);
+}
+.ft7{
+    font-size: p2x(18);
+}
+
